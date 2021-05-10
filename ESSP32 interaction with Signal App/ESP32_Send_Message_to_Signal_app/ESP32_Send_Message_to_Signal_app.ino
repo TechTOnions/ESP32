@@ -56,7 +56,7 @@ void postData()     //userDefine function used to call api(POST data)
   {
     Serial.println("Sent ok."); // print message sent ok message
   }
-  else                      // if responce http code is not 200 it means there is some error.
+  else                      // if response HTTP code is not 200 it means there is some error.
   {
     Serial.println("Error."); // print error message.
   }

@@ -70,7 +70,7 @@ void onButton1Pressed()
 void onButton2Pressed()
 {
   Serial.println("Button2 pressed send image");
-  image_to_signal("https://hackaday.com/wp-content/uploads/2019/05/EspressifLogo.png");
+  image_to_signal("https://www.techtonions.com/wp-content/uploads/2021/05/New-Profile-picture-logo-big-250x250-1.jpg");
 }
 
 void image_to_signal(String img_url)  //user define function to send image to Signal App

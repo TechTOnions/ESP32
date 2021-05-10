@@ -30,7 +30,7 @@ void setup()
   Serial.println("Connected to the WiFi network"); // Print wifi connect message
 
   // use message_to_signal function to send your own message
-  message_to_signal("hello from TechTOnions.");  // you send your own message just change "hello from TechTOnions" to your message.
+  message_to_signal("Hello from TechTOnions.");  // you send your own message just change "hello from TechTOnions" to your message.
 }
 
 void loop()

@@ -1,7 +1,7 @@
 /*
   Date: 07-05-21
   Code written by: Dharmik
-  ESP32 sending a message to Signal messenger
+  ESP32 sending a message & image to Signal messenger on button press.
   Find more on www.TechTOnions.com
 */
 

@@ -11,7 +11,7 @@
 const char* ssid = "Replace me with your SSID";             //Add your WiFi ssid
 const char* password =  "Replace me with your PASSWORD";    //Add your WiFi password
 
-String apiKey = "222222";              //Add your Token number that bot has send you on signal messenger
+String apiKey = "222222";              //Add your Token number that bot has sent you on signal messenger
 String phone_number = "+917561123123"; //Add your signal app registered phone number (same number that bot send you in url)
 
 String url;                            //url String will be used to store the final generated URL
@@ -56,7 +56,7 @@ void postData()     //userDefine function used to call api(POST data)
   {
     Serial.println("Sent ok."); // print message sent ok message
   }
-  else                      // if responce http code is not 200 it means there is some error.
+  else                      // if response HTTP code is not 200 it means there is some error.
   {
     Serial.println("Error."); // print error message.
   }

@@ -1,9 +1,9 @@
 # ESP32 Interacting with Signal App
 [![ESP32 communicating with Signal App](https://www.techtonions.com/wp-content/uploads/2021/05/ESP32-to-Signal-message-sending-and-image-sending-fetured-image.webp)](https://www.techtonions.com/signal-esp32-send-message-and-image/) 
-
-**> Send hello message to Signal App from ESP32**
-**> Send any image to Signal App from ESP32**
-**> Integrate the sending functions to your ESP32 IOT projects**
+<br/>
+<br/>Send hello message to Signal App from ESP32
+<br/>Send any image to Signal App from ESP32
+<br/>Integrate the sending functions to your ESP32 IOT projects
 
 ## Check out compleat tutorial/explanation [here](https://www.techtonions.com/signal-esp32-send-message-and-image/)
 

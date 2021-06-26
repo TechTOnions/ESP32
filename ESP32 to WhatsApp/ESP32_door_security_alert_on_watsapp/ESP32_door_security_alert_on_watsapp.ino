@@ -1,4 +1,4 @@
-
+    
 /*
   Date: 25-06-21
   Code written by: Dharmik
@@ -8,7 +8,7 @@
 
 #include <WiFi.h>         //Including wifi.h library it will take care of all wifi related task
 #include <HTTPClient.h>   //Including HTTPClient.h library to use all api
-#include <RCSwitch.h>
+#include <RCSwitch.h>     //Including RCSwitch.h library to read RF data
 
 RCSwitch mySwitch = RCSwitch();
 #define RF_data_pin 23

@@ -11,6 +11,7 @@
 #include <RCSwitch.h>
 
 RCSwitch mySwitch = RCSwitch();
+#define RF_data_pin 23
 
 const char* ssid = "Replace me with your SSID";             //Add your WiFi ssid
 const char* password =  "Replace me with your PASSWORD";    //Add your WiFi password
@@ -22,8 +23,8 @@ String url;                            //url String will be used to store the fi
 
 void setup()
 {
-  Serial.begin(115200);
-  mySwitch.enableReceive(23);
+  Serial.begin(9600);
+  mySwitch.enableReceive(RF_data_pin);
 
   WiFi.begin(ssid, password);              // Try to connect with the given SSID and PSS
   Serial.println("Connecting to WiFi");
@@ -33,9 +34,6 @@ void setup()
   }
   Serial.println();
   Serial.println("Connected to the WiFi network"); // Print wifi connect message
-
-  // use message_to_whatsapp function to send your own message
-  
 }
 
 void loop()

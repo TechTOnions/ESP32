@@ -113,7 +113,6 @@ void writeStringToFlash(const char* toStore, int startAddr) {
 String readStringFromFlash(int startAddr) {
   char in[128]; // char array of size 128 for reading the stored data 
   int i = 0;
-  curIn = EEPROM.read(startAddr);
   for (; i < 128; i++) {
     in[i] = EEPROM.read(startAddr + i);
   }

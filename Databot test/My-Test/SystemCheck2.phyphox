@@ -1,0 +1,67 @@
+<phyphox xmlns="http://phyphox.org/xml" xmlns:editor="http://phyphox.org/editor/xml" version="1.7" editor:version="1.0" locale="en">
+    <title>databot 2.0 System Check</title>
+    <category>databot 2.0 Sensors</category>
+    <icon format="base64">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</icon>
+    <color>White</color>
+    <description>Check your power level and test lights and sound capabilities with this quick system test.</description>
+    <link label="databot Sensors - Technical Details" highlight="true">https://databot.us.com/geek</link>
+    <data-containers>
+        <container size="0" static="false">m</container>
+		<container size="1" static="false">B</container>
+		<container size="1" static="false">E</container>
+		<container size="1" static="false">Exp_Tx</container>
+    </data-containers>
+    <input>
+        <bluetooth id="DB_" name="DB_" uuid="0000ffe0-0000-1000-8000-00805f9b34fb" mode="notification" rate="1" mtu="220" subscribeOnStart="true">
+            <config char="0000ffe2-0000-1000-8000-00805f9b34fb" conversion="string">{"refresh":1000,"decimal":2,"timeFactor":1000,"timeDec":2,"accl":false,"gyro":false,"magneto":false,"IMUtemp":false,"Etemp1":false,"Etemp2":false,"pressure":false,"alti":false,"ambLight":false,"rgbLight":false,"UV":false,"co2":false,"voc":false,"hum":false,"humTemp":false,"Sdist":false,"Ldist":false,"noise":false,"gesture":false,"sysCheck":true,"altCalib":false,"led1":{"state":false,"R":255,"Y":0,"B":0},"led2":{"state":false,"R":0,"Y":255,"B":0},"led3":{"state":false,"R":0,"Y":0,"B":255}}
+			</config>
+			<output char="0000ffe1-0000-1000-8000-00805f9b34fb" conversion="formattedString" separator=";" label="m">m</output>
+            <output char="0000ffe1-0000-1000-8000-00805f9b34fb" conversion="formattedString" separator=";" label="B">B</output>
+			<output char="0000ffe1-0000-1000-8000-00805f9b34fb" conversion="formattedString" separator=";" label="E">E</output>
+        </bluetooth>
+    </input>
+	<output>
+		<bluetooth id="DB_" name="DB_" uuid="0000ffe0-0000-1000-8000-00805f9b34fb" mode="notification" rate="1" mtu="220" subscribeOnStart="true">			
+			<input char="0000ffe2-0000-1000-8000-00805f9b34fb" conversion="string">Exp_Tx</input>
+		</bluetooth>
+    </output>
+    <analysis sleep="0"  onUserInput="false">
+	<append>
+		<input type="value">1</input>
+		<output>Exp_Tx</output>
+	</append>	
+    </analysis>
+    <views>
+        <view label="Main">
+
+        <info color="white" label="Press the Start Button to run a test on your databot 2.0 lights and sound.  You should see a sequence of red and blue lights and hear a little tune." bold="false" italic="false"  size="1.3" />  
+        <separator color="black" height="0.2" />
+        <separator color="white" height="0.3" />
+		<separator color="black" height="0.4" />
+        <info color="white" label="Your databot 2.0 Identifier information is:" bold="false" italic="false"  size="1.3" />
+        
+        <separator color="black" height="0.6" />
+
+            
+        <value label="" size="2" precision="0" scientific="false" unit="" color="ffffff">
+            <input>E</input>
+        </value>
+
+        <separator color="black" height="0.6" />
+
+        <info color="ffffff" label="When connecting to your databot by WiFi you will be looking for a device address (SSID) with the above ID included.  Once connected, use the databot IP address (192.168.1.160) to access your control menu." bold="false" italic="false"  size="1.3" />
+        
+        <separator color="black" height="0.6" />
+        
+
+        <info color="ffffff" label="Ready?  Go Forth and Explore!" bold="false" italic="false"  size="1.3" />
+        
+        </view>
+    </views>
+    <export>
+        <set name="databot">
+            <data name="Time (S)">m</data>
+            <data name="Battery">B</data>
+        </set>
+    </export>
+</phyphox>
